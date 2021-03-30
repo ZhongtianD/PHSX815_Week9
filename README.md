@@ -1,6 +1,6 @@
 # PHSX815_Week9
 
-Homework #9
+Homework #10
 
 Minimize.py returns the minimization of the Rosenbrock function of a=2, b= 105 using the standard scipy.optimize.minimize function.
 
