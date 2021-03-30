@@ -34,7 +34,7 @@ if __name__ == "__main__":
     ax.view_init( azim=30)
 
     plt.show()
-    plt.save('minimization.png')
+    plt.savefig('minimization.png')
     
     print('The parameter is given by x='+res.x[0]+' and y='+res.x[1])
     print('function was evaluated '+res.nfev+'times')
