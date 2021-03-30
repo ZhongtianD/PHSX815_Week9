@@ -36,8 +36,8 @@ if __name__ == "__main__":
     plt.show()
     plt.savefig('minimization.png')
     
-    print('The parameter is given by x='+res.x[0]+' and y='+res.x[1])
-    print('function was evaluated '+res.nfev+'times')
+    print('The parameter is given by x='+str(res.x[0])+' and y='+str(res.x[1]))
+    print('function was evaluated '+str(res.nfev)+'times')
     
     
     #Using Minuit
